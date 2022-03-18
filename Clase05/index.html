@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Clase 05</title>
+</head>
+<body>
+
+    <form action="#insertar.jsp" method="post">
+        <fieldset>
+            <div>
+                <legend>Datos</legend>
+                <label for="">Ingrese nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="fnac">Fecha de nacimiento:</label>
+                <input type="date" id="fnac" name="fnac" required>
+
+                <label for="horanac">Hora de nacimiento:</label>
+                <input type="time" id="hnac" name="hnac" required>
+
+                <label for="edad">Ingrese Edad:</label>
+                <input type="number" id="edad" name="edad" value="40" readonly required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros Datos</legend>
+            <label for="">Seleccione una provincia:</label>
+            <select name="prov" id="prov">
+                <option value="" selected>Seleccione una opcion</option>
+                <option value="1">CABA</option>
+                <option value="2">Prov. de Buenos Aires</option>
+                <option value="3">Cordoba</option>
+                <option value="4">Santa Cruz</option>
+                <option value="5">Santa Fe</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="">Seleccione una mascota:</label>
+            <select multiple>
+                <optgroup label="4 patas">
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Conejo</option>
+                </optgroup>
+
+                <optgroup label="Ave">
+                    <option>Loro</option>
+                    <option>Canario</option>
+                    <option>Paloma</option>
+                </optgroup>
+            </select>
+
+            <br><br>
+
+            <label for="">Seleccione un color:</label>
+            <input type="color" id="color" name="color">
+
+            <fieldset>
+                <legend>Lenguajes</legend>
+                <label for="php">PHP
+                    <input name="lenguajes" id="php" type="checkbox" value="php">
+                </label>
+
+                <label for="java">Java
+                    <input name="lenguajes" id="java" type="checkbox" value="Java">
+                </label>
+
+                <label for="python">Python
+                    <input name="lenguajes" id="python" type="checkbox" value="Python">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lenguajes de preferencia</legend>
+                
+                <label for="C#">C#
+                    <input type="radio" name="lengp">
+                </label>
+
+                <label for="Ruby">Ruby
+                    <input type="radio" name="lengp">
+                </label>
+
+                <label for="Go">Go
+                    <input type="radio" name="lengp">
+                </label>
+            </fieldset>
+
+        </fieldset>
+        <input type="reset">
+        <input type="submit" value="Enviar Consulta">
+    </form>
+
+</body>
+</html>

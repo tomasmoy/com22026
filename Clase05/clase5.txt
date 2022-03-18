@@ -1,0 +1,10 @@
+-propiedades de input:
+
+disabled = no lo envia al servidor
+readonly 
+value = traer datos de la base de datos
+
+-diferencia entre select y optgroup
+select multiple
+
+agrupar radio buttons: poner el mismo name
