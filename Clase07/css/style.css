@@ -1,0 +1,27 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+#divtitulo{
+    margin: 10px;
+    border: 2px solid;
+    border-color: green;
+    text-align: center;
+    color: red;
+}
+
+h1{
+    color:red;
+}
+
+span{
+    background-color:red;
+}
+
+div span{
+    background-color:lightblue;
+}
