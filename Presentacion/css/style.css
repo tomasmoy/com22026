@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(63, 209, 160);
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-size: larger;
+}
+
+#title{
+    font-family: 'Courgette', cursive;
+    font-size: large;
+    color: rgb(32, 6, 180);
+    text-align: center;
+}
+
+.tarjeta{
+    margin: 20px;
+    padding: 20px;
+    background-color:lightblue;
+    border: gray solid 3px; 
+    border-radius: 10px;
+}
+
+#foto1, #foto2{
+    border-radius: 4%;
+    width: 20%;   
+}
+
+.imgcont{
+    display: block;
+    text-align: center;
+}
+
+ul{
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
+}
