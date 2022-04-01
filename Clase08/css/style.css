@@ -1,46 +1,65 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Kanit', sans-serif;
 }
 
 .logo{
-    margin: 15px;
-    width: 125px;
+    display: block;
+    margin: auto;
+    width: 135px;
 }
 
 .navegador{
-    background-color: gray;
-    text-align: right;
-    padding: 10px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
 }
 
 .anclas{
-    color: black;
-    margin: 2px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.anclas:hover{
+    color:lightblue;
+}
+
+main{
+    font-size: 20px;
 }
 
 footer{
-    background-color: gray;
+    background-color: black;
+    color:white;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;    
 }
-
+header{
+    background-color:black;
+}
 .html{
-    text-align: left;
+    text-align: center;
     /*Top Right Bottom left*/
-    padding: 3px 320px 20px 320px;
+    padding: 50px 300px 30px 300px;
 }
 
 .html img{
-    width: 80px;
-    padding: 10px 0px 20px 35px;
+    width: 120px;
+    padding-bottom: 15px;
 }
 
 .css{
-    text-align: left;
-    padding: 0px 320px 35px 320px;
+    text-align: center;
+    padding: 40px 300px 40px 300px;
 }
 
 .css img{
-    width: 100px;
-    padding-bottom: 20px;
+    width: 120px;
+    padding-bottom: 15px;
 }
